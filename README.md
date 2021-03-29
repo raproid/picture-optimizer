@@ -2,7 +2,7 @@
 
 A simple program that catches the response from a web site and modifies the response body according to the implemented logic.
 
-The algorithm:
+The algorithm implemented in the program:
 
 1. Create a server instance.
 2. Create a client instance. 

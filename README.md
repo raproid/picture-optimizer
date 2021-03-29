@@ -53,13 +53,14 @@ For example, `https://asdlkfjah43a259tlajgdad.ucr.io/$1`.
 
 ## Run
 
-Run proxy: 
+Run the picture optimizer: 
 
-```node proxy.js```
+```node picture-optimizer.js```
 
 
 ## Test
 
-Run the app and open the following URL in a web browser: ```localhost:8000/pic-optimizer```
+Run the app and open the following URL in a web browser: ```localhost:8000/picture-optimizer```
+
 
 

@@ -8,11 +8,11 @@ The algorithm:
 2. Create a client instance. 
 3. Create an app based on the server instance.
 4. Define app logic: 
-	a. Define a URI to visit for the logic to run.
-	b. Request a URL via the client instance. 
-	c. Get the reponse and separate the reponse body.
-	d. Modify the body: find each picture URL and add the hardcoded prefix before it.
-	e. Send the modified response to the web browser. 
+	1. Define a URI to visit for the logic to run.
+	2. Request a URL via the client instance. 
+	3. Get the reponse and separate the reponse body.
+	4. Modify the body: find each picture URL and add the hardcoded prefix before it.
+	5. Send the modified response to the web browser. 
 
 5. Run the app.
 

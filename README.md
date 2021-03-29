@@ -65,4 +65,4 @@ Run the app and open the following URL in a web browser: ```localhost:8000/pictu
 
 ## Credits
 
-Credits to [Vitaly Afonin](https://github.com/afoninv) helped me build this program. 
+Credits to [Vitaly Afonin](https://github.com/afoninv) who helped me build this program. 

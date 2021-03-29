@@ -25,7 +25,7 @@ The algorithm:
 3. Go to the project settings clicking on the newly created project. 
 4. Click **Delivery** on the left navigation panel. 
 5. Scroll down and click **Connect** under the **Media proxy** section.
-6. Add a domain of your choice to the list of allowed domains. The program addresses `www.yapfiles.ru` and `s00.yaplakal.com`, so add it if you just want to test the program.
+6. Add a domain of your choice to the list of allowed domains. By default, the program visits `yaplakal.ru`, so add `www.yapfiles.ru` and `s00.yaplakal.com` if you want to test the program.
 7. Copy your optimization URL from the **Step 2**  and save it somewhere on your device. The URL starts with `https://` and ends with `ucr.io`. For example `https://asdlkfjah43a259tlajgdad.ucr.io/`.
 8. Click **Done**. 
 

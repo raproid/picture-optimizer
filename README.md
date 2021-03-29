@@ -7,7 +7,7 @@ The algorithm:
 1. Create a server instance.
 2. Create a client instance. 
 3. Create an app based on the server instance.
-4. Define app logic: 
+4. Define the app logic: 
 	1. Define a URI to visit for the logic to run.
 	2. Request a URL via the client instance. 
 	3. Get the reponse and separate the reponse body.

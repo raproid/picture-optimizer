@@ -34,7 +34,7 @@ Install the environment and dependencies:
 1. Install Node.js any way acceptable for you: package, apt, homebrew, yarn, etc. Use Google to find your option.
 2. Install dependencies: 
 
-```npm install express axios```
+   ```npm install express axios```
 
 
 ## Clone and prepare

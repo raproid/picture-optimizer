@@ -18,7 +18,7 @@ The algorithm:
 
 ## Prerequisites
 
-Do the following:
+### Uploadcare account and settings
 
 1. Visit https://uploadcare.com/ and create a new trial account.
 2. When registered, go to **Dashboard** and create a new project. 
@@ -29,7 +29,7 @@ Do the following:
 7. Copy your optimization URL from the **Step 2**  and save it somewhere on your device. The URL starts with ```https://``` and ends with ```ucr.io```. For example ```https://asdlkfjah43a259tlajgdad.ucr.io/```.
 8. Click **Done**. 
 
-Install the environment and dependencies:
+### Node.js and modules
 
 1. Install Node.js any way acceptable for you: package, apt, homebrew, yarn, etc. Use Google to find your option.
 2. Install dependencies: 

@@ -60,6 +60,6 @@ Run proxy:
 
 ## Test
 
-Run the app and open the following URL in a web browser: ```localhost:8000/proxy```
+Run the app and open the following URL in a web browser: ```localhost:8000//pic-optimizer```
 
 

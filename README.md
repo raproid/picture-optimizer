@@ -26,7 +26,7 @@ The algorithm:
 4. Click **Delivery** on the left navigation panel. 
 5. Scroll down and click **Connect** under the **Media proxy** section.
 6. Add a domain of your choice to the list of allowed domains. By default, the program visits `yaplakal.ru`, so add `www.yapfiles.ru` and `s00.yaplakal.com` if you want to test the program.
-7. Copy your optimization URL from the **Step 2**  and save it somewhere on your device. The URL starts with `https://` and ends with `ucr.io`. For example `https://asdlkfjah43a259tlajgdad.ucr.io/`.
+7. Copy your optimization URL from the **Step 2** on the page and save it somewhere on your device. The URL starts with `https://` and ends with `ucr.io`. For example `https://asdlkfjah43a259tlajgdad.ucr.io/`.
 8. Click **Done**. 
 
 ### Node.js and modules

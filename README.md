@@ -41,7 +41,7 @@ The algorithm:
 
 ### Clone
 
-Open terminal and run:
+Open a Terminal window and run:
 
 ```git clone git@github.com:raproid/picture-optimizer.git && cd picture-optimizer```
 

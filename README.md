@@ -1,1 +1,65 @@
-# proxy
+# Picture optimizer
+
+A simple program that catches the response from a web site and modifies the response body according to the implemented logic.
+
+The algorithm:
+
+1. Create a server instance.
+2. Create a client instance. 
+3. Create an app based on the server instance.
+4. Define app logic: 
+	a. Define a URI to visit for the logic to run.
+	b. Request a URL via the client instance. 
+	c. Get the reponse and separate the reponse body.
+	d. Modify the body: find each picture URL and add the hardcoded prefix before it.
+	e. Send the modified response to the web browser. 
+
+5. Run the app.
+
+## Prerequisites
+
+Do the following:
+
+1. Visit https://uploadcare.com/ and create a new trial account.
+2. When registered, go to **Dashboard** and create a new project. 
+3. Go to the project settings clicking on the newly created project. 
+4. Click **Delivery** on the left navigation panel. 
+5. Scroll down and click **Connect** under the **Media proxy** section.
+6. Add a domain of your choice to the list of allowed domains. The program addresses ```www.yapfiles.ru```, so add it if you just want to test the program.
+7. Copy your optimization URL from the **Step 2**  and save it somewhere on your device. The URL starts with ```https://``` and ends with ```ucr.io```. For example ```https://asdlkfjah43a259tlajgdad.ucr.io/```.
+8. Click **Done**. 
+
+Install the environment and dependencies:
+
+1. Install Node.js any way acceptable for you: package, apt, homebrew, yarn, etc. Use Google to find your option.
+2. Install dependencies: 
+
+```npm install express axios```
+
+
+## Clone and prepare
+
+### Clone
+
+Open terminal and run:
+
+```git clone git@github.com:raproid/picture-optimizer.git && cd picture-optimizer```
+
+
+### Prepare
+
+Open `picture-optimizer.js` and replace `<YOUR-UPLOADCARE-OPTIMIZER-URL>` with the URL from #7 from **Prerequisites**. 
+For example, `https://asdlkfjah43a259tlajgdad.ucr.io/$1`.
+
+## Run
+
+Run proxy: 
+
+```node proxy.js```
+
+
+## Test
+
+Run the app and open the following URL in a web browser: ```localhost:8000/proxy```
+
+
